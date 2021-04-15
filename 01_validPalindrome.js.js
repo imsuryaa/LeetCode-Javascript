@@ -1,3 +1,6 @@
+// LeetCode - 125
+// Given a string s, determine if it is a palindrome, considering only alphanumeric characters and ignoring cases.
+
 function isPalindrome(s) {
     // Santize the input string
     s = s.toLowerCase().replace(/[\W_]/g, "")
